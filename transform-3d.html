@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>测试</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<style>
+*{margin:0; padding:0; list-style: none;}
+ul{
+	width: 200px;
+	height: 200px;
+	margin:100px auto;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-webkit-perspective:1000;
+	/*-webkit-perspective-origin:center center;*/
+	/*-webkit-transform:rotateX(-23deg) rotateY(39deg) rotateZ(0deg);*/
+}
+ul li{
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	background: #ccc;
+	position: absolute;
+}
+ul li:nth-child(1){
+	background: #E1A94D;
+	-webkit-transform: translateZ(100px);
+}
+ul li:nth-child(6){
+	background: #4D7EE1;
+	-webkit-transform:rotateY(180deg) translateZ(100px);
+}
+/*ul li:nth-child(3){
+	background: #E1614D;
+	-webkit-transform:rotateY(-90deg) translateZ(100px);
+}*/
+/* ul li:nth-child(3){
+	background: #E1614D;
+	-webkit-transform:translateZ(100px) rotateY(-90deg);
+} */
+/*ul li:nth-child(4){
+	background: #6AE14D;
+	-webkit-transform:rotateY(90deg) translateZ(100px);
+}
+ul li:nth-child(5){
+	background: #A64DE1;
+	-webkit-transform:rotateX(90deg) translateZ(100px);
+}
+ul li:nth-child(2){
+	background: #4AB78E;
+	-webkit-transform:rotateX(-90deg) translateZ(100px);
+}
+ul:hover{
+	transform:rotateX(-23deg) rotateY(39deg) rotateZ(0deg) scaleZ(1.3);
+}*/
+</style>
+</head>
+<body>
+<ul>
+	<li>第1面</li>
+	<li>第2面</li>
+	<li>第3面</li>
+	<li>第4面</li>
+	<li>第5面</li>
+	<!-- <li>第6面</li> -->
+</ul>
+</body>
+</html>
